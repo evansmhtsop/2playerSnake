@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 
-#define SCREEN_W 1024
-#define SCREEN_H 768
+#define SCREEN_W 1536
+#define SCREEN_H 1152
 #define BOX 20
 #define MAX_TAIL 100
-#define FOODS 5 
+#define FOODS 50 
 
 
 typedef struct {
@@ -43,7 +43,7 @@ Color RandomFoodColor();
 
 int main() {
     
-    InitWindow(SCREEN_W, SCREEN_H, "SUPER COOL 2 PLAYER SNAKE GAME!!!");
+    InitWindow(SCREEN_W, SCREEN_H, "2 PLAYER SNAKE GAME!!!");
     SetTargetFPS(10);  
 
  
@@ -167,10 +167,6 @@ void StartSnake(Snake *s, int x, int y, Color c1, Color c2) {
     s->points = 0;
     
     
-    for (int i = 0; i < MAX_TAIL; i++) {
-        s->tail[i].x = -1;
-        s->tail[i].y = -1;
-    }
 }
 
 void MoveSnake(Snake *s, Food foods[], Snake *other, int *game_over) {
