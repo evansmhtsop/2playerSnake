@@ -49,7 +49,7 @@ gcc main.c -o snake -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```bash
 ./snake
 ```
-##🎮 Χειρισμός
+🎮 Χειρισμός
 
 Παίκτης 1: W, A, S, D
 
