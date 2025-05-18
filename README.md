@@ -28,11 +28,10 @@ sudo apt install libraylib-dev
 
 Εκτελέστε:
 
-bash
-Αντιγραφή
-Επεξεργασία
+```bash
 pacman -Syu
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-raylib
+```
 🍎 macOS (με Homebrew)
 bash
 Αντιγραφή
