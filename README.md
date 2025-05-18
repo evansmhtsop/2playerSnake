@@ -32,16 +32,8 @@ sudo apt install libraylib-dev
 pacman -Syu
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-raylib
 ```
-#🍎 macOS (με Homebrew)
-```bash
-Αντιγραφή
-Επεξεργασία
-brew install raylib
-▶️ Εκτέλεση του Παιχνιδιού
-Κλωνοποιήστε το αποθετήριο:
 
 ```bash
-
 git clone https://github.com/your-username/2-players-snake.git
 cd 2-players-snake
 ```
@@ -54,10 +46,9 @@ gcc main.c -o snake -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 Τρέξτε το παιχνίδι:
 
-bash
-Αντιγραφή
-Επεξεργασία
+```bash
 ./snake
+```
 🎮 Χειρισμός
 Παίκτης 1: W, A, S, D
 
