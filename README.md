@@ -20,6 +20,7 @@ markdown
 ```bash
 sudo apt update
 sudo apt install libraylib-dev
+```
 🪟 Windows (με MSYS2)
 Κατεβάστε και εγκαταστήστε το MSYS2.
 
